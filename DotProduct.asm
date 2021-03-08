@@ -38,7 +38,7 @@ https://github.com/pietert2000
 ; Initialise
 load    R1,n[R0]      ; R1 = n
 lea     R2,0[R0]      ; R2 = i = 0
-load    R3,dp[R0]     ; R3 = dp (dot_product) = 0
+; load    R3,dp[R0]     ; R3 = dp (dot_product) = 0
 lea     R10,1[R0]     ; R10 = constant 1
 
 ; Top of forloop
